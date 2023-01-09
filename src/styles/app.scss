@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import "animations";
+@import "statics";
+@import "header";
+@import "home";
+@import "work";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+    font-family: $text2;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+}
+.disableBtn{
+    background-color: rgb(237, 237, 237);
+    cursor: not-allowed;
+
+
+}
