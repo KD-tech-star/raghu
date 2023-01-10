@@ -9,6 +9,7 @@ const Footer = () => {
 <p>Best revenge is massive success</p>
 </div>
 <aside>
+
 </aside>
 </footer>
   )
