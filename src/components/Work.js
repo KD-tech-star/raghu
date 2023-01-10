@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
 import data from "../assets/data.json"
 function Work() {
   return (
@@ -7,7 +8,16 @@ function Work() {
       <h2>WORK</h2>
       <section>
         <article>
-          <Carousel>
+          <Carousel
+           showArrows={false}
+           showIndicators={false}
+           showStatus={false}
+           showThumbs={false}
+           interval={2000}
+           infiniteLoop={true}
+           autoPlay={true}
+           
+           >
             {
               data.projects.map(i => (
                 <div key={i.title} className="workItem">
